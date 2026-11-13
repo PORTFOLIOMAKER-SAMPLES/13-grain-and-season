@@ -1,6 +1,6 @@
-# 계절과 결 — 목공 공방
+# 문하린 | 작가 · 에디터
 
-Portfolio Maker로 만든 정적 사이트입니다. **빌드 도구가 필요 없습니다.**
+포메(Portfolio Maker)로 만든 정적 사이트입니다. **빌드 도구가 필요 없습니다.**
 
 ## 열기
 
@@ -15,8 +15,10 @@ python -m http.server 5500
 
 ## 페이지
 
-- `index.html` — Home
-- `contact.html` — Contact
+- `index.html` — 홈
+- `연재.html` — 연재
+- `북토크.html` — 북토크
+- `원고-의뢰.html` — 원고 의뢰
 
 ## 구조
 
@@ -24,7 +26,7 @@ python -m http.server 5500
 index.html 등        페이지마다 한 장
 assets/site.css      레이아웃 · 테마 · 파트 스타일
 assets/init.js       3D 효과 마운트
-effects/             효과 팩 (_core · scroll-reveal · hover-preview · model-showcase · tilt-card · magnetic-button · smooth-scroll)
+effects/             효과 팩 (_core · model-showcase)
 ```
 
 ## 고치는 법
